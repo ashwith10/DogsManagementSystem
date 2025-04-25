@@ -29,6 +29,12 @@ public class DogController {
 //		return "home";
 //	}
 
+	@RequestMapping("/")
+	public String home1()
+	{
+		return "home";
+	}
+	
 	@RequestMapping("dogHome")
 	public ModelAndView home()
 	{
